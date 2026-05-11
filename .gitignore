@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+dist/
+.next/
+
+# Python dependencies
+venv/
+__pycache__/
+*.pyc
+
+# Environment & Secrets (CRITICAL)
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
