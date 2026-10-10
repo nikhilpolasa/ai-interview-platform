@@ -7,11 +7,16 @@ dist/
 venv/
 __pycache__/
 *.pyc
+.venv/
+.pytest_cache/
 
 # Environment & Secrets (CRITICAL)
 .env
 .env.local
+.env.*
+!.env.example
 
 # OS files
 .DS_Store
 Thumbs.db
+
